@@ -44,6 +44,7 @@ export const matchString = (str: string, pattern: string): boolean =>
 
 export const capitalize = (str: string): string => 
   str.split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+
 // Example Usage
 // console.log(isEmptyObject({})); // true
 // console.log(deepClone({ a: 1, b: { c: 2 } })); // { a: 1, b: { c: 2 } }

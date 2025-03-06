@@ -2,8 +2,6 @@ import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { capitalize } from "./utils/utils";
-import { matchString } from "./utils/utils";
 function App() {
   const [count, setCount] = useState(0);
 
